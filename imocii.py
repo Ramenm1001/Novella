@@ -17,9 +17,7 @@ if __name__ == "__main__":
     font = pygame.font.SysFont("эмоции", 40)
 
 main_char_sprites = {}
-scale = 1
-
-
+scale = 0.5
 name = "Alex"
 #радость
 happy = pygame.image.load(f"sprites/{name}_happy.png")
